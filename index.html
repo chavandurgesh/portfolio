@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --theme: coral
+        }
+
+        .hero {
+            color: aliceblue;
+            height: calc(100vh - 75px);
+            background-image: url(asseta/images/bg.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom left;
+        }
+
+        .hero-img {
+            top: 0%;
+            right: 0%;
+            height: calc(100vh - 75px);
+            position: absolute;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            color: white;
+        }
+
+        p {
+            width: 50vh;
+            line-height: 1.7rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero a {
+            color: var(--theme);
+            text-decoration: none;
+            border: 2px solid var(--theme);
+            padding: 0.5em 1.5rem;
+        }
+
+        .navbar {
+            background-color: var(--theme);
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+        }
+
+        .navbar a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .skills {
+            /* height: 200px;
+            background-color: var(--theme); */
+            width: 80%;
+            margin: 2rem auto 0px;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .progress {
+            background-color: gray;
+            height: 2rem;
+            margin: 2rem 0;
+        }
+
+        .progress-bar {
+            background-color: var(--theme);
+            height: 2rem;
+            /* width: 75%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .frontend {
+            width: 50%;
+        }
+
+        .backend {
+            width: 50%;
+        }
+
+
+        .html {
+            width: 80%;
+
+        }
+
+        .css {
+            width: 60%;
+        }
+
+        .project {
+            width: 80%;
+            margin: 2rem auto;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .card {
+            border: 2px solid var(--theme);
+            width: 25%;
+            /* padding: 2rem; */
+        }
+
+        .card img {
+            max-width: 100%;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>hi my name is john</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum unde beatae nulla est dolor veniam
+                debitis sint iusto excepturi numquam ea id corrupti animi, modi quam saepe nihil? Atque, quia.</p>
+            <a href="" style="border-radius: 10%;">hire me</a>
+        </div>
+        <img class="hero-img" src="asseta/images/bg-dots.svg" alt="">
+        <img class="hero-img" src="asseta/images/user.png" alt="">
+    </div>
+    <div class="navbar">
+        <a href="">home</a>
+        <a href="">Eduction</a>
+        <a href="">project</a>
+        <a href="">Experince</a>
+        <a href="">contact</a>
+    </div>
+    <div class="skills">
+        <div class="frontend">
+            <div class="progress">
+                <div class="progress-bar html">html</div>
+
+            </div>
+            <div class="progress ">
+                <div class="progress-bar css">css</div>
+            </div>
+
+        </div>
+        <div class="backend">
+            <div class="progress">
+                <div class="progress-bar html">html</div>
+
+            </div>
+            <div class="progress ">
+                <div class="progress-bar css">css</div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="project">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/121199853/photo/closeup-of-guy-working-on-a-laptop-indoor.jpg?s=612x612&w=is&k=20&c=ARnn8MtWX-OA7znvcxdqnLVyy3bdgq1vM9EAjsQO62U="
+                alt="">
+
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>lorem,ipsum.</p>
+                <a href="">Visit</a>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/121199853/photo/closeup-of-guy-working-on-a-laptop-indoor.jpg?s=612x612&w=is&k=20&c=ARnn8MtWX-OA7znvcxdqnLVyy3bdgq1vM9EAjsQO62U="
+                alt="">
+
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>lorem,ipsum.</p>
+                <a href="">Visit</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+
+
+<!-- github account
+
+git install -->
+
+</html>
